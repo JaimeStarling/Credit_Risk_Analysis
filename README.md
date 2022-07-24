@@ -60,6 +60,7 @@ The F1 Scores are greatly improved:
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/brf%20classification.png)
 
-Finally we tried the *Easy Ensemble AdaBoost Classifier*, which [Kaggle](https://www.kaggle.com/code/prashant111/adaboost-classifier-tutorial/notebook) describes as "an iterative ensemble method. AdaBoost classifier builds a strong classifier by combining multiple poorly performing classifiers so that you will get high accuracy strong classifier." 
+Finally we tried the *Easy Ensemble AdaBoost Classifier*, which [Kaggle](https://www.kaggle.com/code/prashant111/adaboost-classifier-tutorial/notebook) describes as "an iterative ensemble method. AdaBoost classifier builds a strong classifier by combining multiple poorly performing classifiers so that you will get [a] high accuracy strong classifier." And how! *The accuracy rate was 99 percent*. Unfortunately, such a high accuracty rate is a warning that something is not right. Here are the arrays and classifications, but they should not be considered:
+
 
  
