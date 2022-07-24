@@ -76,4 +76,7 @@ Finally we tried the *Easy Ensemble AdaBoost Classifier*, which [Kaggle](https:/
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/ada%20classification.png)
 
+## Summary
+
+There is some hope for the Easy Ensemble AdaBoost Classifier, however, as it is the best-performing algorithm for this dataset. Yes, the accuracy is suspiciously high, but that has more to do with the size of the dataset, not the algorithm. If we expanded the size of the dataset, including the rest of 2019 or better yet, a few years before and after (which, as we know, are going to very different from one another thanks to a global pandemic), this algorithm will have a more trusting accuracy rate along with F1 score. We can determine better rates of high-risk loans and serve more customers.
 
