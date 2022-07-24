@@ -48,7 +48,7 @@ Granted, the precision rates and F1 Scores are improved.
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/centroid%20array.png)
 
-
+![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/smoteen%20classification.png)
 
 
 
