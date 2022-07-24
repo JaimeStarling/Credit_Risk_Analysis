@@ -25,7 +25,8 @@ The *Synthetic Minority Oversampling Technique (SMOTE)* is another oversampling 
 However, SMOTE gave us an accuracy rate of 62 percent, lower than the previous oversampling, with a confusion matrix array of:
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/smote%20confustion%20matrix.png)
 
-![This is an image]()
+![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/smote%20imbalanced%20classification%20report.png)
+
 
 
 
