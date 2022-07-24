@@ -53,6 +53,6 @@ Granted, the precision rates and F1 Scores are improved.
 ## Ensemble Classifiers
 
 We then tried the *Balanced Random Forest Classifier* on the dataset. This is an extension of bagging, fitting multiple models on different subsets of a training dataset, then combining the predictions from all models. Not always recommended, this algorithm did provide decent results with an *accuracy rate of 79 percent*! 
-
+https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/brf%20array.png
 
 
