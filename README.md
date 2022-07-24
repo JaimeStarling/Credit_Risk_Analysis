@@ -14,6 +14,8 @@ The data itself covers the first calendar year quarter (January, February, March
 We know that there are only a few "High Risk" loans among the nearly 69K requests, so the data is considered imbalanced. One way we can "balance" this out is with oversampling. 
 
 After preparing this LendingClub dataset for training and testing, we first oversampled the data using **Naive Random Oversampling**. With this we take random "High Risk" samples until it matches up with the rest. This, however, gave us 65 per cent accuracy with a confusion matrix (predicted against actual) array of 
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
 
 
 
