@@ -44,7 +44,7 @@ Granted, the precision rates and F1 Scores are improved.
 
 ## Combination Sampling
 
-*SMOTEENN* combines the SMOTE and *Edited Nearest Neighbors (ENN)* algorithms, combining oversampling and undersampling in a two-step process that begins with SMOTE and then cleaning the data again with undersampling. The resulting accuracy rate was 64 percent, not much different than Naive Random Sampling, but with a more interesting array:
+*SMOTEENN* combines the SMOTE and *Edited Nearest Neighbors (ENN)* algorithms, combining oversampling and undersampling in a two-step process that begins with SMOTE and then cleaning the data again with undersampling. The resulting accuracy rate was 64 percent, not much different than Naive Random Sampling, but with a more interesting array and improved F1 Scores:
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/centroid%20array.png)
 
