@@ -23,13 +23,21 @@ The Classification Report, with "High Risk" identified below as "0" in the first
 
 The *Synthetic Minority Oversampling Technique (SMOTE)* is another oversampling approach to deal with unbalanced datasets like this one. While similar to Naive Randome Oversampling, SMOTE stands out by creating new samples that are similar to the minority set. If a "High Risk" is A and another one is B, SMOTE creates one that's A.5 for the analysis. A and B are real, A.5 is synthesized, but A.5 can be used to bulk up the minority set for balance.
 
-However, SMOTE gave us an accuracy rate of 62 percent, lower than the previous oversampling, with a confusion matrix array of:
+However, SMOTE gave us an *accuracy rate of 62 percent*, lower than the previous oversampling, with a confusion matrix array of:
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/smote%20confustion%20matrix.png)
 
 While there is some improvement with SMOTE in terms of precision rates and F1 Scores, it is not much better.
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/smote%20imbalanced%20classification%20report.png)
+
+** Undersampling
+
+Another way to balance the data set is undersampling. Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased. *Cluster Centroid Undersampling* is akin to SMOTE. The algorithm identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. The majority class is then undersampled down to the size of the minority class. 
+
+In this algorithm, we got an *accuracy rate of 51 percent*, increasingly worse results than oversampling, with an array of:
+
+![This is an image]
 
 
 
