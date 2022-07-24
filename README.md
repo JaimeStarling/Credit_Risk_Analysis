@@ -29,3 +29,4 @@ However, SMOTE gave us an accuracy rate of 62 percent, lower than the previous o
 
 
 
+
