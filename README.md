@@ -17,6 +17,8 @@ After preparing this LendingClub dataset for training and testing, we first over
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/nro%20confusion%20matrix.png)
 
+The Classification Report, with "High Risk" identified below as "0" in the first line, shows a significantly lower precision rate than the "Low Risk" identified as "1" in the second line. This is also true in the F1 Score, also known in statistics as "the harmonic mean" between precision and recall.
+![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/nro%20imbalanced%20classification%20report.png)
 
 
 
