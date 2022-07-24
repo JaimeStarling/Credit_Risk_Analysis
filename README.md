@@ -31,13 +31,15 @@ While there is some improvement with SMOTE in terms of precision rates and F1 Sc
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/smote%20imbalanced%20classification%20report.png)
 
-** Undersampling
+## Undersampling
 
 Another way to balance the data set is undersampling. Undersampling takes the opposite approach of oversampling. Instead of increasing the number of the minority class, the size of the majority class is decreased. *Cluster Centroid Undersampling* is akin to SMOTE. The algorithm identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. The majority class is then undersampled down to the size of the minority class. 
 
 In this algorithm, we got an *accuracy rate of 51 percent*, increasingly worse results than oversampling, with an array of:
 
-![This is an image]
+![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/centroid%20array.png)
+
+
 
 
 
