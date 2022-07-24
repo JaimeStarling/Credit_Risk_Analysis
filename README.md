@@ -17,6 +17,16 @@ After preparing this LendingClub dataset for training and testing, we first over
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/nro%20confusion%20matrix.png)
 
+To understand the Classification Reports below, we share a quick guide:
+
+pre: precision
+rec: recall
+spe: specificity
+f1: F1 Score
+geo: geometric mean
+iba: index balanced accuracy
+sup: support
+
 The Classification Report, with "High Risk" identified below as "0" in the first line, shows a significantly lower precision rate than the "Low Risk" identified as "1" in the second line. This is also true in the F1 Score, also known in statistics as "the harmonic mean" between precision and recall.
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/nro%20imbalanced%20classification%20report.png)
@@ -65,3 +75,5 @@ Finally we tried the *Easy Ensemble AdaBoost Classifier*, which [Kaggle](https:/
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/ada%20array.png)
 
 ![This is an image](https://github.com/JaimeStarling/Credit_Risk_Analysis/blob/main/Images/ada%20classification.png)
+
+
